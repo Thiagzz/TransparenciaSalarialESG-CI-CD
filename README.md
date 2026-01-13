@@ -4,27 +4,6 @@ Este projeto faz parte da disciplina de DevOps e tem como objetivo implementar u
 
 A aplicação faz parte do contexto ESG (*Environmental, Social and Governance*), promovendo **transparência salarial** como parte das boas práticas sociais e de governança corporativa.
 
-# Como executar localmente com Docker
-
-- Passos para rodar a aplicação:
-
-1. Adicione o repositório:
-   https://github.com/Thiagzz/TransparenciaSalarialESG-CI-CD.git
-   TransparenciaSalarialESG-CI-CD
-Construa e suba os containers:
-
-Acesse a aplicação:
-
-Produção: http://localhost:8080
-
-Staging: http://localhost:8081
-
-MongoDB: mongodb://localhost:27017/transparencia
-
-- Para parar os containers:
-
-docker-compose down
-
 # Pipeline CI/CD
 Ferramentas utilizadas
 Jenkins – Automação de build, testes e deploy
